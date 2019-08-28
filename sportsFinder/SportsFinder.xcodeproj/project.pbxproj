@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F03CA0D1C60D36B002D7D2F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F03CA0C1C60D36B002D7D2F /* User.swift */; };
+		3F03CA0F1C60D515002D7D2F /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F03CA0E1C60D515002D7D2F /* Event.swift */; };
+		3F9331D71C5F76F700EC7609 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9331D61C5F76F700EC7609 /* AppDelegate.swift */; };
+		3F9331DC1C5F76F700EC7609 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9331DA1C5F76F700EC7609 /* Main.storyboard */; };
+		3F9331DF1C5F76F700EC7609 /* SportsFinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F9331DD1C5F76F700EC7609 /* SportsFinder.xcdatamodeld */; };
+		3F9331E11C5F76F700EC7609 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F9331E01C5F76F700EC7609 /* Assets.xcassets */; };
+		3F9331E41C5F76F700EC7609 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9331E21C5F76F700EC7609 /* LaunchScreen.storyboard */; };
+		3F9331ED1C5F8CA300EC7609 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9331EC1C5F8CA300EC7609 /* LoginController.swift */; };
+		3F9331EF1C5F8CD200EC7609 /* MainScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9331EE1C5F8CD200EC7609 /* MainScreenController.swift */; };
+		3F9331F11C5F8D2C00EC7609 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9331F01C5F8D2C00EC7609 /* UserTableViewCell.swift */; };
+		3F9331F31C5F8D4300EC7609 /* MapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9331F21C5F8D4300EC7609 /* MapTableViewCell.swift */; };
+		3F9331F51C5F8D5200EC7609 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9331F41C5F8D5200EC7609 /* EventTableViewCell.swift */; };
+		3F9331F71C5F8DBB00EC7609 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9331F61C5F8DBB00EC7609 /* MapViewController.swift */; };
+		3F9331F91C5F8DF000EC7609 /* NewEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9331F81C5F8DF000EC7609 /* NewEventViewController.swift */; };
+		3F9331FB1C5F8E0800EC7609 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9331FA1C5F8E0800EC7609 /* SignUpViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F03CA0C1C60D36B002D7D2F /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3F03CA0E1C60D515002D7D2F /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		3F9331D31C5F76F700EC7609 /* SportsFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9331D61C5F76F700EC7609 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F9331DB1C5F76F700EC7609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F9331DE1C5F76F700EC7609 /* SportsFinder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SportsFinder.xcdatamodel; sourceTree = "<group>"; };
+		3F9331E01C5F76F700EC7609 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F9331E31C5F76F700EC7609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F9331E51C5F76F700EC7609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F9331EC1C5F8CA300EC7609 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		3F9331EE1C5F8CD200EC7609 /* MainScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenController.swift; sourceTree = "<group>"; };
+		3F9331F01C5F8D2C00EC7609 /* UserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		3F9331F21C5F8D4300EC7609 /* MapTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapTableViewCell.swift; sourceTree = "<group>"; };
+		3F9331F41C5F8D5200EC7609 /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		3F9331F61C5F8DBB00EC7609 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		3F9331F81C5F8DF000EC7609 /* NewEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewEventViewController.swift; sourceTree = "<group>"; };
+		3F9331FA1C5F8E0800EC7609 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F9331D01C5F76F700EC7609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F9331CA1C5F76F700EC7609 = {
+			isa = PBXGroup;
+			children = (
+				3F9331D51C5F76F700EC7609 /* SportsFinder */,
+				3F9331D41C5F76F700EC7609 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F9331D41C5F76F700EC7609 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F9331D31C5F76F700EC7609 /* SportsFinder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F9331D51C5F76F700EC7609 /* SportsFinder */ = {
+			isa = PBXGroup;
+			children = (
+				3F9331EB1C5F8C3600EC7609 /* Controllers */,
+				3F9331D61C5F76F700EC7609 /* AppDelegate.swift */,
+				3F9331DA1C5F76F700EC7609 /* Main.storyboard */,
+				3F9331E01C5F76F700EC7609 /* Assets.xcassets */,
+				3F9331E21C5F76F700EC7609 /* LaunchScreen.storyboard */,
+				3F9331E51C5F76F700EC7609 /* Info.plist */,
+				3F9331DD1C5F76F700EC7609 /* SportsFinder.xcdatamodeld */,
+			);
+			path = SportsFinder;
+			sourceTree = "<group>";
+		};
+		3F9331EB1C5F8C3600EC7609 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3F9331EC1C5F8CA300EC7609 /* LoginController.swift */,
+				3F9331EE1C5F8CD200EC7609 /* MainScreenController.swift */,
+				3F9331F01C5F8D2C00EC7609 /* UserTableViewCell.swift */,
+				3F9331F21C5F8D4300EC7609 /* MapTableViewCell.swift */,
+				3F9331F41C5F8D5200EC7609 /* EventTableViewCell.swift */,
+				3F9331F61C5F8DBB00EC7609 /* MapViewController.swift */,
+				3F9331F81C5F8DF000EC7609 /* NewEventViewController.swift */,
+				3F9331FA1C5F8E0800EC7609 /* SignUpViewController.swift */,
+				3F03CA0C1C60D36B002D7D2F /* User.swift */,
+				3F03CA0E1C60D515002D7D2F /* Event.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F9331D21C5F76F700EC7609 /* SportsFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F9331E81C5F76F700EC7609 /* Build configuration list for PBXNativeTarget "SportsFinder" */;
+			buildPhases = (
+				3F9331CF1C5F76F700EC7609 /* Sources */,
+				3F9331D01C5F76F700EC7609 /* Frameworks */,
+				3F9331D11C5F76F700EC7609 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SportsFinder;
+			productName = SportsFinder;
+			productReference = 3F9331D31C5F76F700EC7609 /* SportsFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F9331CB1C5F76F700EC7609 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Student;
+				TargetAttributes = {
+					3F9331D21C5F76F700EC7609 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 3F9331CE1C5F76F700EC7609 /* Build configuration list for PBXProject "SportsFinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F9331CA1C5F76F700EC7609;
+			productRefGroup = 3F9331D41C5F76F700EC7609 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F9331D21C5F76F700EC7609 /* SportsFinder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F9331D11C5F76F700EC7609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9331E41C5F76F700EC7609 /* LaunchScreen.storyboard in Resources */,
+				3F9331E11C5F76F700EC7609 /* Assets.xcassets in Resources */,
+				3F9331DC1C5F76F700EC7609 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F9331CF1C5F76F700EC7609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9331FB1C5F8E0800EC7609 /* SignUpViewController.swift in Sources */,
+				3F9331F51C5F8D5200EC7609 /* EventTableViewCell.swift in Sources */,
+				3F9331DF1C5F76F700EC7609 /* SportsFinder.xcdatamodeld in Sources */,
+				3F9331F91C5F8DF000EC7609 /* NewEventViewController.swift in Sources */,
+				3F03CA0F1C60D515002D7D2F /* Event.swift in Sources */,
+				3F9331ED1C5F8CA300EC7609 /* LoginController.swift in Sources */,
+				3F9331F71C5F8DBB00EC7609 /* MapViewController.swift in Sources */,
+				3F9331F31C5F8D4300EC7609 /* MapTableViewCell.swift in Sources */,
+				3F9331D71C5F76F700EC7609 /* AppDelegate.swift in Sources */,
+				3F9331F11C5F8D2C00EC7609 /* UserTableViewCell.swift in Sources */,
+				3F9331EF1C5F8CD200EC7609 /* MainScreenController.swift in Sources */,
+				3F03CA0D1C60D36B002D7D2F /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F9331DA1C5F76F700EC7609 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F9331DB1C5F76F700EC7609 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F9331E21C5F76F700EC7609 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F9331E31C5F76F700EC7609 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F9331E61C5F76F700EC7609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F9331E71C5F76F700EC7609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F9331E91C5F76F700EC7609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SportsFinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pedepano.SportsFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F9331EA1C5F76F700EC7609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SportsFinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pedepano.SportsFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F9331CE1C5F76F700EC7609 /* Build configuration list for PBXProject "SportsFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9331E61C5F76F700EC7609 /* Debug */,
+				3F9331E71C5F76F700EC7609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F9331E81C5F76F700EC7609 /* Build configuration list for PBXNativeTarget "SportsFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9331E91C5F76F700EC7609 /* Debug */,
+				3F9331EA1C5F76F700EC7609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3F9331DD1C5F76F700EC7609 /* SportsFinder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3F9331DE1C5F76F700EC7609 /* SportsFinder.xcdatamodel */,
+			);
+			currentVersion = 3F9331DE1C5F76F700EC7609 /* SportsFinder.xcdatamodel */;
+			path = SportsFinder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3F9331CB1C5F76F700EC7609 /* Project object */;
+}
